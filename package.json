@@ -1,0 +1,37 @@
+{
+  "name": "soft-midnight",
+  "displayName": "Soft Midnight",
+  "description": "A calming and elegant dark theme for Visual Studio Code.",
+  "version": "0.0.1",
+  "publisher": "JeanCastle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeangoo/soft-midnight.git"
+  },
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Soft Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soft-midnight-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "theme",
+    "dark",
+    "soft",
+    "midnight",
+    "elegant",
+    "calming"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jeangoo/soft-midnight"
+}
